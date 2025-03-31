@@ -8,7 +8,7 @@ Just copy this project and make changes as necessary. Remove this chapter.
 
 Jegatron VHDL Library - Generic Clock Enable Divider
 
-Entity: generic_clk_en_divider
+Entity: generic_counter
 
 Divides the clock into single-clock-length enable pulses to use as enable signals for other modules in the same clock domain. To make other modules run slower :)
 
@@ -19,7 +19,7 @@ etc
 Declaring component
 
 ```vhdl
-	component generic_clk_en_divider is
+	component generic_counter is
 		generic (
 			divider_bits : integer := 8
 		);
@@ -36,7 +36,7 @@ Declaring component
 Instantiating
 
 ```vhdl
-	my_9_bit_divider : generic_clk_en_divider
+	my_9_bit_divider : generic_counter
 		generic map(
 			divider_bits => 9
 		)

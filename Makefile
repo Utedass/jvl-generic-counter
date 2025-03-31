@@ -10,7 +10,7 @@
 ##### All variables you need to edit are moved here:
 
 # Main design entity
-PRIMARY_DESIGN = generic_clk_en_divider
+PRIMARY_DESIGN = generic_counter
 
 # Add design files to this row (not test benches), expected to reside in hdl_design/ subfolder
 DESIGN_FILES = $(PRIMARY_DESIGN).vhd
