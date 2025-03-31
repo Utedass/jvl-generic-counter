@@ -1,6 +1,4 @@
-# jvl-generic-counter
-
-Jegatron VHDL Library - Generic Counter
+# Jegatron VHDL Library - Generic Counter
 
 Entity: generic_counter
 
